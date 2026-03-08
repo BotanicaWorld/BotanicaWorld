@@ -1,2 +1,0 @@
-export const HEARTBEAT_TOKEN = "HEARTBEAT_OK";
-export const SILENT_REPLY_TOKEN = "NO_REPLY";

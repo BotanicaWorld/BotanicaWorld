@@ -1,7 +1,0 @@
-target/
-data/
-**/*.safetensors
-**/*.onnx
-.env
-.env.local
-.DS_Store

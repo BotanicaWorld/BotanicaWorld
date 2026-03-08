@@ -1,1 +1,0 @@
-// bags verification module
