@@ -1,0 +1,8 @@
+[package]
+name = "botanica-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Reference implementation of the Botanica realm mechanics: economy, combat, towns, governance."
+license = "MIT"
+
+[dependencies]

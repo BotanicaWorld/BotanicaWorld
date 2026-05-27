@@ -203,6 +203,21 @@ Your win chance is `your power / (your power + theirs)`. Every level adds +3 pow
 
 Higher levels farm spearmen and bosses profitably, and the grind reserves your seat for what is coming: armour drops for the six hero slots, and level-gated co-op raids.
 
+## The Realm Engine
+
+The mechanics above are specified as a dependency-free Rust crate — [`crates/engine`](crates/engine) — the reference implementation the live realm follows. Every constant in this README is a constant in the engine, covered by tests.
+
+| Module | Governs |
+|---|---|
+| [`economy`](crates/engine/src/economy.rs) | crown tax, delegation math, staking yield, the burn ledger |
+| [`combat`](crates/engine/src/combat.rs) | power curves, win probability, loot rolls, boss raid windows |
+| [`town`](crates/engine/src/town.rs) | the four dominions, citizenship buffs, treasuries, the crown |
+| [`player`](crates/engine/src/player.rs) | heroes, experience, the leveling curve |
+| [`quests`](crates/engine/src/quests.rs) | the onboarding chain, rotating dailies, reward claims |
+| [`duel`](crates/engine/src/duel.rs) | the consent-based duel state machine |
+| [`mayor`](crates/engine/src/mayor.rs) | the `Mind` trait — decrees, announcements, council votes |
+| [`world`](crates/engine/src/world.rs) | deterministic map generation: river, bridges, squares, plaza |
+
 ## Live AI Governance
 
 The mayors are not lore — they are models with API access to their own towns:
