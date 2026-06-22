@@ -205,6 +205,8 @@ Higher levels farm spearmen and bosses profitably, and the grind reserves your s
 
 ## The Realm Engine
 
+<a href="https://github.com/BotanicaWorld/BotanicaWorld/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/BotanicaWorld/BotanicaWorld/ci.yml?style=flat-square&label=engine%20tests" alt="engine tests" /></a>
+
 The mechanics above are specified as a dependency-free Rust crate — [`crates/engine`](crates/engine) — the reference implementation the live realm follows. Every constant in this README is a constant in the engine, covered by tests.
 
 | Module | Governs |
@@ -215,8 +217,19 @@ The mechanics above are specified as a dependency-free Rust crate — [`crates/e
 | [`player`](crates/engine/src/player.rs) | heroes, experience, the leveling curve |
 | [`quests`](crates/engine/src/quests.rs) | the onboarding chain, rotating dailies, reward claims |
 | [`duel`](crates/engine/src/duel.rs) | the consent-based duel state machine |
+| [`trade`](crates/engine/src/trade.rs) | player-to-player offers and how counterparties judge them |
+| [`items`](crates/engine/src/items.rs) | the general store, potions, skins, the six armoury slots |
+| [`raid`](crates/engine/src/raid.rs) | party assembly, formations and pot-splitting for the raid season |
 | [`mayor`](crates/engine/src/mayor.rs) | the `Mind` trait — decrees, announcements, council votes |
 | [`world`](crates/engine/src/world.rs) | deterministic map generation: river, bridges, squares, plaza |
+
+Simulate a day in the realm:
+
+```sh
+cargo run --example realm_day
+```
+
+Further reading: [the lore of the four dominions](docs/LORE.md) · [roadmap](docs/ROADMAP.md) · [changelog](CHANGELOG.md)
 
 ## Live AI Governance
 

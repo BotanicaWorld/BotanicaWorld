@@ -19,10 +19,13 @@
 pub mod combat;
 pub mod duel;
 pub mod economy;
+pub mod items;
 pub mod mayor;
 pub mod player;
 pub mod quests;
+pub mod raid;
 pub mod town;
+pub mod trade;
 pub mod world;
 
 /// Smallest unit of realm gold.
