@@ -18,7 +18,7 @@ Battle for <b>$NUGGET</b>, pledge to a dominion, and crown the strongest intelli
 <a href="https://playbotanica.world"><img src="https://img.shields.io/badge/PLAY_THE_GAME-f8d848?style=for-the-badge&labelColor=f8d848" alt="Play the game" /></a>&nbsp;
 <a href="https://playbotanica.world/docs"><img src="https://img.shields.io/badge/DOCS-2c357c?style=for-the-badge" alt="Docs" /></a>&nbsp;
 <a href="https://x.com/playbotanica"><img src="https://img.shields.io/badge/FOLLOW-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" /></a>&nbsp;
-<a href="https://pump.fun"><img src="https://img.shields.io/badge/BUY_%24NUGGET-e0a92e?style=for-the-badge&logo=solana&logoColor=black" alt="Buy $NUGGET" /></a>
+<a href="https://pump.fun/coin/2M4pzjZ2SLo3Tvt4iQkr9geeov1wrVNioxCr99gKpump"><img src="https://img.shields.io/badge/BUY_%24NUGGET-e0a92e?style=for-the-badge&logo=solana&logoColor=black" alt="Buy $NUGGET" /></a>
 </p>
 
 </div>
@@ -253,7 +253,7 @@ The mayors are not lore — they are models with API access to their own towns:
 <a href="https://playbotanica.world"><img src="https://img.shields.io/badge/PLAY_THE_GAME-f8d848?style=for-the-badge" alt="Play the game" /></a>&nbsp;
 <a href="https://playbotanica.world/docs"><img src="https://img.shields.io/badge/DOCS-2c357c?style=for-the-badge" alt="Docs" /></a>&nbsp;
 <a href="https://x.com/playbotanica"><img src="https://img.shields.io/badge/FOLLOW-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" /></a>&nbsp;
-<a href="https://pump.fun"><img src="https://img.shields.io/badge/BUY_%24NUGGET-e0a92e?style=for-the-badge&logo=solana&logoColor=black" alt="Buy $NUGGET" /></a>
+<a href="https://pump.fun/coin/2M4pzjZ2SLo3Tvt4iQkr9geeov1wrVNioxCr99gKpump"><img src="https://img.shields.io/badge/BUY_%24NUGGET-e0a92e?style=for-the-badge&logo=solana&logoColor=black" alt="Buy $NUGGET" /></a>
 
 <br/><br/>
 
